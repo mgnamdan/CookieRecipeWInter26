@@ -5,26 +5,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Danny's Cookies</title>
+        <title id="site-title">Danny's Chocolate Chip Cookies</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
 
     <body>
+        <h1 class="cool_things">Danny's Chocolate Chip Cookies</h1>
+        <p><strong>By: Dan the Baker Man</strong></p>
+        <img src="perfect-cookie.jpg" alt="A beatiful pile of delicious cookies." width="300" height="500"/>
 
-        <h1>Chocolate Chip Cookies</h1>
-        <h3>By: Dan the Baker Man</h3>
-
-        <img src="cookies.jpg" alt="A delicious pile of cookies." width="300" height="450">
-
-        <ul>
-            <li>2 1/4 cup of flour</li>
+        <h2>Ingredients</h2>
+        <ul id="ingredients-list">
+            <li>2 1/4 cup flour</li>
             <li>1 tsp baking soda</li>
             <li>1 tsp salt</li>
             <li>1 cup butter</li>
             <li>3/4 cup sugar</li>
             <li>2 large eggs</li>
-            <li>2 cup of chocolate chips</li>
+            <li>2 cup chocolate chips</li>
         </ul>
 
+        <h2>Instructions</h2>
         <ol>
             <li>Preheat oven to 375°F (190°C).</li>
             <li>Mix flour, baking soda, and salt in a small bowl.</li>
@@ -34,7 +35,12 @@
             <li>Stir in chocolate chips.</li>
             <li>Drop spoonfuls onto a baking sheet and bake for 9–11 minutes.</li>
         </ol>
-        
+
+        <div id="button-container">
+            <button id="mode-toggle">Toggle Mode</button>
+        </div>
+
+        <script src="script.js"></script>
     </body>
 
 </html>
